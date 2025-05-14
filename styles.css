@@ -4,7 +4,7 @@ body {
 }
 .goback{
   border-radius: 20%;
-  background-color: whitesmoke;
+  background-color: #FEF2BF;
   height: 50px;
   font-size: 15px;
   font-weight: 200px;
@@ -33,10 +33,19 @@ body {
   height: 200px;
   width: 700px;
   padding: 20px;
-  background-color: whitesmoke;
+  background-color: #FEF2BF;
   color: #011F3F;
   font-family: 'Press Start 2P', cursive;
   margin:  5%;
+}
+.startbtn{
+  border-radius: 20%;
+  background-color: #FEF2BF;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 200px;
+  border: 2px solid black;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .container {
