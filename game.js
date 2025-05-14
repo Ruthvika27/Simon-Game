@@ -8,6 +8,13 @@ function start(){
 var started=false;
 gameSeq=[];
 level=0;
+$(".startbtn").on("click",function() {
+    if (!started) {
+    $("#level-title").text("Level " + level);
+    sequence();
+    started = true;
+  }
+})
 $(document).on("keydown",function() {
     if (!started) {
     $("#level-title").text("Level " + level);
