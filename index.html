@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Instructions of the Game</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <script>
+    // Function to handle button click and redirect
+    function startGame() {
+      window.location.href = 'game-start.html'; // Redirect to the game-start page
+    }
+  </script>
+
+</head>
+
+<body >
+  <div id="level-title" height="100px">Simon-Game</div>
+   <h2 class="instructions" style="color:#FEF2BF ;">Game Instructions </h2>
+   <div class="cardd">
+   <div class="instrcard">
+      <p><br>
+        1. Watch the color sequence.<br>
+        2. Repeat it by clicking the buttons in the same order.<br>
+        3. Each round adds a new color.<br>
+        4. One wrong click, and the game ends!
+      </p>
+   
+   </div>
+   </div>
+  </div>
+  <button class="goback" onclick="startGame()" >Start Game</button>
+</body>
+
+</html>
