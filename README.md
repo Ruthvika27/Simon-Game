@@ -7,4 +7,4 @@ An interactive memory game built with HTML, CSS, and JavaScript.
 - Score and high score tracking
 - Hosted with GitHub Pages ✅
 
-🔗 [Play Now](https://your-link-here)
+🔗 [Play Now]([https://your-link-here](https://ruthvika27.github.io/Simon-Game/))
